@@ -1,3 +1,3 @@
-let wordData = "Word List";
+let wordData = "Word Data";
 
 console.log(wordData);
