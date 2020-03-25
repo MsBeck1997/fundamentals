@@ -24,7 +24,7 @@ let notEquals = 5 !== 2;
 let storeA = 4.40;
 let storeB = 4.40;
 
-function compareStorePrices (storeA, storeB) {
+/* function compareStorePrices (storeA, storeB) {
 	let storeALower = storeA < storeB;
 	if(storeALower) {
 		console.log("Store A has a lower price.")
@@ -34,7 +34,7 @@ function compareStorePrices (storeA, storeB) {
 		console.log("Their prices are equal.")
 	}
 }
-
+*/
 //compareStorePrices(1,5);
 
 function squareNum (number) {
@@ -49,4 +49,16 @@ let squareNumber = squareNum(7);
 let ourArray = [1, 2, 3, 4, ['a', 'b', 'c']];
 //console.log(ourArray[4][0]);
 
-// Loops
+// Loops - For types: (counter, comparison, incremental); while loops run until conditions are met
+/* let arrLen = ourArray.length;
+for(let i = 0; i<arrLen; i++){
+	console.log("i is equal to: " + i)
+	//console.log(ourArray[i]);
+}
+*/
+
+let x = 0;
+while (x < 10) {
+	console.log('Ran');
+	x = x + 1;
+}
